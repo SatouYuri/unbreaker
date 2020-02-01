@@ -20,7 +20,11 @@ func play_body(animation):
 			$L_HAND.play(animation)
 			$R_HAND.play(animation)
 
+<<<<<<< HEAD
 func _physics_process(_delta):
+=======
+func _physics_process(delta):
+>>>>>>> 00ff916ade976f2a69bbf0ca5b4b1fcd575667a8
 #Movimentação
 	#Cima
 	if Input.is_action_pressed("ui_up"):
