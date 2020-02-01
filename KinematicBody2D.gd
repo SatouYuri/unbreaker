@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 const UP = Vector2(0, -1)
-const SPEED = 100
+const SPEED = 350
 var motion = Vector2()
 var is_moving
 #Função

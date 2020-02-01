@@ -9,7 +9,7 @@ extents = Vector2( 32.2769, 32 )
 [node name="Player" type="Node"]
 
 [node name="Player" type="KinematicBody2D" parent="."]
-position = Vector2( 480, 288 )
+position = Vector2( 512, 288 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -20,3 +20,7 @@ texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+zoom = Vector2( 0.6, 0.6 )
