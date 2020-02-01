@@ -14,23 +14,23 @@ func is_moving():
 func _physics_process(delta):
 #Movimentação
 	if not is_moving():
-		$Sprite.play("idle")
+		$UPPER_BODY.play("idle")
 	#Cima
 	if Input.is_action_pressed("ui_up"):
 		motion.y -= SPEED
-		$Sprite.play("walk")
+		$UPPER_BODY.play("walk")
 	#Baixo
 	elif Input.is_action_pressed("ui_down"):
 		motion.y += SPEED
-		$Sprite.play("walk")
+		$UPPER_BODY.play("walk")
 	#Direita
 	if Input.is_action_pressed("ui_right"):
 		motion.x += SPEED
-		$Sprite.play("walk")
+		$UPPER_BODY.play("walk")
 	#Esquerda
 	elif Input.is_action_pressed("ui_left"):
 		motion.x -= SPEED
-		$Sprite.play("walk")
+		$UPPER_BODY.play("walk")
 	#Mexe desgraça
 	motion = move_and_slide(motion, UP)
 	#Parado_meliante
