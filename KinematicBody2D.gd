@@ -15,16 +15,13 @@ func is_moving():
 	return false
 
 func play_body(animation):
-			$UPPER_BODY.play(animation)
-			$DOWN_BODY.play(animation)
-			$L_HAND.play(animation)
-			$R_HAND.play(animation)
+	$UPPER_BODY.play(animation)
+	$DOWN_BODY.play(animation)
+	$L_HAND.play(animation)
+	$R_HAND.play(animation)
+	$FEATHER.play(animation)
 
-<<<<<<< HEAD
 func _physics_process(_delta):
-=======
-func _physics_process(delta):
->>>>>>> 00ff916ade976f2a69bbf0ca5b4b1fcd575667a8
 #Movimentação
 	#Cima
 	if Input.is_action_pressed("ui_up"):
