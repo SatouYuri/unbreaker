@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/test_tileset.png-fb6ac52fb819f6276fc24e828a4f5ade.stex"
+path="res://.import/test.png-40e5266b49b3fde5f9e922e3c19aa357.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tileset/test_tileset.png"
-dest_files=[ "res://.import/test_tileset.png-fb6ac52fb819f6276fc24e828a4f5ade.stex" ]
+source_file="res://Assets/Sprites/Player/test.png"
+dest_files=[ "res://.import/test.png-40e5266b49b3fde5f9e922e3c19aa357.stex" ]
 
 [params]
 
@@ -20,11 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-<<<<<<< HEAD
 flags/filter=true
-=======
-flags/filter=false
->>>>>>> 6c6783ee24bea7a592924cd122e7a636ab1d8ec9
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
