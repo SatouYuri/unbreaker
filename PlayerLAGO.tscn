@@ -23,21 +23,6 @@ extents = Vector2( 32.2769, 32 )
 animations = [ {
 "frames": [  ],
 "loop": true,
-"name": "walk_back",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "walk_front",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "walk_left",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
 "name": "walk_right",
 "speed": 5.0
 }, {
@@ -59,6 +44,21 @@ animations = [ {
 "frames": [ ExtResource( 10 ), ExtResource( 6 ) ],
 "loop": true,
 "name": "idle_back",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "walk_front",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "walk_left",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "walk_back",
 "speed": 5.0
 } ]
 
@@ -108,14 +108,14 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 11 ), ExtResource( 8 ) ],
-"loop": true,
-"name": "right",
-"speed": 5.0
-}, {
 "frames": [  ],
 "loop": true,
 "name": "left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "right",
 "speed": 5.0
 } ]
 
