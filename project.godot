@@ -16,7 +16,16 @@ _global_script_class_icons={
 [application]
 
 config/name="unbreaker"
+run/main_scene="res://PlayerLAGO.tscn"
 config/icon="res://icon.png"
+
+[layer_names]
+
+2d_physics/layer_1="Player"
+2d_physics/layer_2="Environment"
+2d_physics/layer_3="Enemies"
+2d_physics/layer_4="Projectiles/Weapons"
+2d_physics/layer_5="Collectibles"
 
 [rendering]
 
