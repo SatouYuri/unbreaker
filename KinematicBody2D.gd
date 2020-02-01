@@ -3,6 +3,8 @@ extends KinematicBody2D
 const UP = Vector2(0, -1)
 const SPEED = 350
 var motion = Vector2()
+
+
 #Função
 func is_moving():
 	if Input.is_action_pressed("ui_up")\
@@ -11,27 +13,37 @@ func is_moving():
 	or Input.is_action_pressed("ui_left"):
 		return true;
 	return false;
+
+func play_body(animation):
+			$UPPER_BODY.play(animation)
+			$DOWN_BODY.play(animation)
+			$L_HAND.play(animation)
+			$R_HAND.play(animation)
+			
 func _physics_process(delta):
 #Movimentação
-	if not is_moving():
-		$UPPER_BODY.play("idle")
+	var direction = "down"
 	#Cima
 	if Input.is_action_pressed("ui_up"):
 		motion.y -= SPEED
-		$UPPER_BODY.play("walk")
+		direction = "up"
 	#Baixo
 	elif Input.is_action_pressed("ui_down"):
 		motion.y += SPEED
-		$UPPER_BODY.play("walk")
-	#Direita
-	if Input.is_action_pressed("ui_right"):
-		motion.x += SPEED
-		$UPPER_BODY.play("walk")
+		direction = "down"
 	#Esquerda
-	elif Input.is_action_pressed("ui_left"):
+	if Input.is_action_pressed("ui_left"):
 		motion.x -= SPEED
-		$UPPER_BODY.play("walk")
+		direction = "left"
+	#Direita
+	elif Input.is_action_pressed("ui_right"):
+		motion.x += SPEED
+		direction = "right"
 	#Mexe desgraça
+	if is_moving():
+		play_body("walk_" + direction)
+	else:
+		play_body("idle_" + direction)
 	motion = move_and_slide(motion, UP)
 	#Parado_meliante
 	motion.x = 0
