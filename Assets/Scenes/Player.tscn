@@ -1,35 +1,35 @@
 [gd_scene load_steps=49 format=2]
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_08.png" type="Texture" id=2]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_09.png" type="Texture" id=3]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_19.png" type="Texture" id=4]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_20.png" type="Texture" id=5]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_06.png" type="Texture" id=6]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_07.png" type="Texture" id=7]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_17.png" type="Texture" id=8]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_06.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_07.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_17.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_19.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_08.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_09.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_20.png" type="Texture" id=8]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_18.png" type="Texture" id=9]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_15.png" type="Texture" id=10]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_16.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_27.png" type="Texture" id=10]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_28.png" type="Texture" id=11]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_14.png" type="Texture" id=12]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_27.png" type="Texture" id=13]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_28.png" type="Texture" id=14]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_29.png" type="Texture" id=15]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_30.png" type="Texture" id=16]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_31.png" type="Texture" id=17]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_32.png" type="Texture" id=18]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_33.png" type="Texture" id=19]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_34.png" type="Texture" id=20]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_35.png" type="Texture" id=21]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_36.png" type="Texture" id=22]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_37.png" type="Texture" id=23]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_29.png" type="Texture" id=13]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_30.png" type="Texture" id=14]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_36.png" type="Texture" id=15]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_31.png" type="Texture" id=16]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_32.png" type="Texture" id=17]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_15.png" type="Texture" id=18]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_37.png" type="Texture" id=19]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_33.png" type="Texture" id=20]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_16.png" type="Texture" id=21]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_34.png" type="Texture" id=22]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_35.png" type="Texture" id=23]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_38.png" type="Texture" id=24]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_10.png" type="Texture" id=25]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_23.png" type="Texture" id=25]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_11.png" type="Texture" id=26]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_23.png" type="Texture" id=27]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_24.png" type="Texture" id=28]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_39.png" type="Texture" id=29]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_40.png" type="Texture" id=30]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_24.png" type="Texture" id=27]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_40.png" type="Texture" id=28]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_10.png" type="Texture" id=29]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_39.png" type="Texture" id=30]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_21.png" type="Texture" id=31]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_22.png" type="Texture" id=32]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_51.png" type="Texture" id=33]
@@ -44,58 +44,56 @@
 [ext_resource path="res://Assets/Sprites/Player/player_v2_45.png" type="Texture" id=42]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_44.png" type="Texture" id=43]
 
-[sub_resource type="SpriteFrames" id=1]
+[sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "walk_up",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
-"loop": true,
-"name": "idle_up",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 4 ), ExtResource( 5 ) ],
-"loop": true,
-"name": "walk_left",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
-"loop": true,
-"name": "idle_down",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 4 ), ExtResource( 5 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 8 ) ],
 "loop": true,
 "name": "idle_left",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
 "loop": true,
-"name": "walk_right",
+"name": "idle_down",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
 "loop": true,
+"name": "idle_up",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "walk_left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
 "name": "walk_down",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"frames": [ ExtResource( 4 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "walk_right",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 9 ) ],
 "loop": true,
 "name": "idle_right",
 "speed": 5.0
 } ]
 
-[sub_resource type="SpriteFrames" id=2]
+[sub_resource type="SpriteFrames" id=3]
 animations = [ {
-"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
+"frames": [ ExtResource( 18 ), ExtResource( 21 ) ],
 "loop": true,
 "name": "walk_up",
 "speed": 5.0
 }, {
-<<<<<<< HEAD
-=======
 "frames": [ ExtResource( 10 ) ],
 "loop": true,
 "name": "idle_left",
@@ -106,85 +104,67 @@ animations = [ {
 "name": "idle_down",
 "speed": 5.0
 }, {
->>>>>>> d23560bd177ae692fbf767443befa15a7c89ac53
 "frames": [ ExtResource( 12 ) ],
 "loop": true,
 "name": "idle_up",
 "speed": 5.0
 }, {
-<<<<<<< HEAD
-"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
-=======
 "frames": [ ExtResource( 37 ), ExtResource( 43 ), ExtResource( 42 ), ExtResource( 41 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 39 ), ExtResource( 38 ), ExtResource( 33 ), ExtResource( 36 ), ExtResource( 40 ) ],
->>>>>>> d23560bd177ae692fbf767443befa15a7c89ac53
 "loop": true,
 "name": "walk_left",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 13 ) ],
+"frames": [ ExtResource( 18 ), ExtResource( 21 ) ],
 "loop": true,
-"name": "idlw_left",
+"name": "walk_down",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 13 ) ],
-"loop": true,
-"name": "idle_down",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 15 ), ExtResource( 19 ), ExtResource( 24 ) ],
 "loop": true,
 "name": "walk_right",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
-"loop": true,
-"name": "walk_down",
-"speed": 5.0
-<<<<<<< HEAD
-}, {
-"frames": [ ExtResource( 13 ) ],
+"frames": [ ExtResource( 10 ) ],
 "loop": true,
 "name": "idle_right",
 "speed": 5.0
-=======
->>>>>>> d23560bd177ae692fbf767443befa15a7c89ac53
 } ]
 
-[sub_resource type="SpriteFrames" id=3]
+[sub_resource type="SpriteFrames" id=4]
 animations = [ {
-"frames": [ ExtResource( 25 ), ExtResource( 26 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "walk_up",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 25 ), ExtResource( 26 ) ],
+"frames": [ ExtResource( 25 ), ExtResource( 27 ) ],
 "loop": true,
-"name": "idle_up",
+"name": "idle_left",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 27 ), ExtResource( 28 ) ],
-"loop": true,
-"name": "walk_left",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ) ],
+"frames": [ ExtResource( 30 ), ExtResource( 28 ) ],
 "loop": true,
 "name": "idle_down",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 27 ), ExtResource( 28 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
 "loop": true,
-"name": "idle_left",
+"name": "idle_up",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 25 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "walk_left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 30 ), ExtResource( 28 ) ],
+"loop": true,
+"name": "walk_down",
 "speed": 5.0
 }, {
 "frames": [  ],
 "loop": true,
 "name": "walk_right",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ) ],
-"loop": true,
-"name": "walk_down",
 "speed": 5.0
 }, {
 "frames": [  ],
@@ -193,33 +173,14 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32, 32 )
 
 [sub_resource type="SpriteFrames" id=5]
 animations = [ {
-"frames": [ ExtResource( 25 ), ExtResource( 26 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "walk_up",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 25 ), ExtResource( 26 ) ],
-"loop": true,
-"name": "idle_up",
-"speed": 5.0
-}, {
-<<<<<<< HEAD
-"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
-=======
-"frames": [  ],
->>>>>>> 12f12d5bec4fc00474a1f39ea76579ec15dcf6e5
-"loop": true,
-"name": "walk_left",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ) ],
-"loop": true,
-"name": "idle_down",
 "speed": 5.0
 }, {
 "frames": [  ],
@@ -227,18 +188,29 @@ animations = [ {
 "name": "idle_left",
 "speed": 5.0
 }, {
-<<<<<<< HEAD
 "frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
-=======
-"frames": [ ExtResource( 31 ), ExtResource( 32 ) ],
->>>>>>> 12f12d5bec4fc00474a1f39ea76579ec15dcf6e5
 "loop": true,
-"name": "walk_right",
+"name": "idle_down",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
+"loop": true,
+"name": "idle_up",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "walk_left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "walk_down",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 31 ), ExtResource( 32 ) ],
+"loop": true,
+"name": "walk_right",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 31 ), ExtResource( 32 ) ],
@@ -257,24 +229,19 @@ __meta__ = {
 }
 
 [node name="UpperBody" type="AnimatedSprite" parent="KinematicBody2D"]
-frames = SubResource( 1 )
+frames = SubResource( 2 )
 animation = "walk_right"
 
 [node name="LowerBody" type="AnimatedSprite" parent="KinematicBody2D"]
-<<<<<<< HEAD
-frames = SubResource( 2 )
-animation = "walk_right"
-=======
 frames = SubResource( 3 )
 animation = "idle_left"
->>>>>>> d23560bd177ae692fbf767443befa15a7c89ac53
 
 [node name="LeftHand" type="AnimatedSprite" parent="KinematicBody2D"]
-frames = SubResource( 3 )
+frames = SubResource( 4 )
 animation = "walk_right"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
-shape = SubResource( 4 )
+shape = SubResource( 1 )
 
 [node name="RightHand" type="AnimatedSprite" parent="KinematicBody2D"]
 frames = SubResource( 5 )
