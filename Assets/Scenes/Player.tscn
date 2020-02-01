@@ -188,7 +188,7 @@ animations = [ {
 "name": "idle_left",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 30 ), ExtResource( 28 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "idle_down",
 "speed": 5.0
@@ -203,7 +203,7 @@ animations = [ {
 "name": "walk_left",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 30 ), ExtResource( 28 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "walk_down",
 "speed": 5.0
