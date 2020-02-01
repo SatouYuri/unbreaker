@@ -3,7 +3,7 @@ extends KinematicBody2D
 const UP = Vector2(0, -1)
 const SPEED = 350
 var motion = Vector2()
-
+var direction = "down"
 
 #Função
 func is_moving():
@@ -19,10 +19,9 @@ func play_body(animation):
 			$DOWN_BODY.play(animation)
 			$L_HAND.play(animation)
 			$R_HAND.play(animation)
-			
+
 func _physics_process(delta):
 #Movimentação
-	var direction = "down"
 	#Cima
 	if Input.is_action_pressed("ui_up"):
 		motion.y -= SPEED

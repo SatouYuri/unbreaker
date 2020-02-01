@@ -1,8 +1,8 @@
 [gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_27.png" type="Texture" id=2]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_14.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_14.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_27.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_28.png" type="Texture" id=4]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_29.png" type="Texture" id=5]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_30.png" type="Texture" id=6]
@@ -15,12 +15,12 @@
 [ext_resource path="res://Assets/Sprites/Player/player_v2_37.png" type="Texture" id=13]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_06.png" type="Texture" id=14]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_07.png" type="Texture" id=15]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_17.png" type="Texture" id=16]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_18.png" type="Texture" id=17]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_08.png" type="Texture" id=18]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_09.png" type="Texture" id=19]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_19.png" type="Texture" id=20]
-[ext_resource path="res://Assets/Sprites/Player/player_v2_20.png" type="Texture" id=21]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_08.png" type="Texture" id=16]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_09.png" type="Texture" id=17]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_19.png" type="Texture" id=18]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_20.png" type="Texture" id=19]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_17.png" type="Texture" id=20]
+[ext_resource path="res://Assets/Sprites/Player/player_v2_18.png" type="Texture" id=21]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_21.png" type="Texture" id=22]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_22.png" type="Texture" id=23]
 [ext_resource path="res://Assets/Sprites/Player/player_v2_39.png" type="Texture" id=24]
@@ -39,15 +39,20 @@ extents = Vector2( 32.2769, 32 )
 animations = [ {
 "frames": [ ExtResource( 2 ) ],
 "loop": true,
-"name": "idle_side",
+"name": "idle_down",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "idle_up",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 3 ) ],
 "loop": true,
-"name": "idle_frontback",
-"speed": 10.0
+"name": "idle_side",
+"speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
 "name": "walk_side",
 "speed": 25.0
@@ -55,29 +60,19 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
-"frames": [  ],
-"loop": true,
-"name": "walk_back",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 14 ), ExtResource( 15 ) ],
 "loop": true,
-"name": "idle_front",
+"name": "idle_down",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ), ExtResource( 17 ) ],
 "loop": true,
-"name": "idle_right",
+"name": "idle_up",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ) ],
+"frames": [  ],
 "loop": true,
-"name": "idle_back",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 20 ), ExtResource( 21 ) ],
-"loop": true,
-"name": "idle_left",
+"name": "walk_back",
 "speed": 5.0
 }, {
 "frames": [  ],
@@ -85,9 +80,19 @@ animations = [ {
 "name": "walk_side",
 "speed": 25.0
 }, {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "idle_left",
+"speed": 5.0
+}, {
 "frames": [  ],
 "loop": true,
 "name": "walk_front",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 20 ), ExtResource( 21 ) ],
+"loop": true,
+"name": "idle_right",
 "speed": 5.0
 } ]
 
@@ -156,14 +161,14 @@ shape = SubResource( 1 )
 zoom = Vector2( 0.6, 0.6 )
 
 [node name="DOWN_BODY" type="AnimatedSprite" parent="Player"]
-position = Vector2( -1, 2 )
+position = Vector2( 0, 2 )
 frames = SubResource( 2 )
-animation = "idle_frontback"
+animation = "idle_up"
 
 [node name="UPPER_BODY" type="AnimatedSprite" parent="Player"]
 position = Vector2( -1, 0 )
 frames = SubResource( 3 )
-animation = "idle_front"
+animation = "idle_down"
 
 [node name="R_HAND" type="AnimatedSprite" parent="Player"]
 position = Vector2( -1, 0 )
