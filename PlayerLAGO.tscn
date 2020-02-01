@@ -37,8 +37,12 @@ extents = Vector2( 32.2769, 32 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 2 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
+<<<<<<< HEAD
+"name": "walk_side",
+"speed": 25.0
+=======
 "name": "idle_down",
 "speed": 10.0
 }, {
@@ -46,20 +50,33 @@ animations = [ {
 "loop": true,
 "name": "idle_up",
 "speed": 5.0
+>>>>>>> 00ff916ade976f2a69bbf0ca5b4b1fcd575667a8
 }, {
 "frames": [ ExtResource( 3 ) ],
 "loop": true,
 "name": "idle_side",
 "speed": 5.0
 }, {
+<<<<<<< HEAD
+"frames": [ ExtResource( 2 ) ],
+=======
 "frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+>>>>>>> 00ff916ade976f2a69bbf0ca5b4b1fcd575667a8
 "loop": true,
-"name": "walk_side",
-"speed": 25.0
+"name": "idle_side",
+"speed": 5.0
 } ]
 
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
+<<<<<<< HEAD
+"frames": [  ],
+"loop": true,
+"name": "walk_side",
+"speed": 25.0
+}, {
+=======
+>>>>>>> 00ff916ade976f2a69bbf0ca5b4b1fcd575667a8
 "frames": [ ExtResource( 14 ), ExtResource( 15 ) ],
 "loop": true,
 "name": "idle_down",
@@ -77,8 +94,8 @@ animations = [ {
 }, {
 "frames": [  ],
 "loop": true,
-"name": "walk_side",
-"speed": 25.0
+"name": "walk_front",
+"speed": 5.0
 }, {
 "frames": [ ExtResource( 18 ), ExtResource( 19 ) ],
 "loop": true,
@@ -87,7 +104,7 @@ animations = [ {
 }, {
 "frames": [  ],
 "loop": true,
-"name": "walk_front",
+"name": "walk_back",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 20 ), ExtResource( 21 ) ],

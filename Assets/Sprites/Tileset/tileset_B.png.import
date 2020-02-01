@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tileset_A.png-6e7f3d5d57e735ac35f5e24e8ed86923.stex"
+path="res://.import/tileset_B.png-b1dfecc2ff3055a897aa3e123f2fc0c2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tileset/tileset_A.png"
-dest_files=[ "res://.import/tileset_A.png-6e7f3d5d57e735ac35f5e24e8ed86923.stex" ]
+source_file="res://Assets/Sprites/Tileset/tileset_B.png"
+dest_files=[ "res://.import/tileset_B.png-b1dfecc2ff3055a897aa3e123f2fc0c2.stex" ]
 
 [params]
 
@@ -20,11 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-<<<<<<< HEAD
-flags/filter=false
-=======
 flags/filter=true
->>>>>>> e215e1c99e60185214fb33f0294eddc7318cf96d
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

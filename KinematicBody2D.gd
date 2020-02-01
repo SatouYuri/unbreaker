@@ -12,15 +12,16 @@ func is_moving():
 	or Input.is_action_pressed("ui_right")\
 	or Input.is_action_pressed("ui_left"):
 		return true;
-	return false;
+	return false
 
 func play_body(animation):
-			$UPPER_BODY.play(animation)
-			$DOWN_BODY.play(animation)
-			$L_HAND.play(animation)
-			$R_HAND.play(animation)
+	$UPPER_BODY.play(animation)
+	$DOWN_BODY.play(animation)
+	$L_HAND.play(animation)
+	$R_HAND.play(animation)
+	$FEATHER.play(animation)
 
-func _physics_process(delta):
+func _physics_process(_delta):
 #Movimentação
 	#Cima
 	if Input.is_action_pressed("ui_up"):
@@ -43,6 +44,7 @@ func _physics_process(delta):
 		play_body("walk_" + direction)
 	else:
 		play_body("idle_" + direction)
+
 	motion = move_and_slide(motion, UP)
 	#Parado_meliante
 	motion.x = 0

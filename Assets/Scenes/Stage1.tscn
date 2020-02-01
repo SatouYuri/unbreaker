@@ -4,7 +4,7 @@
 
 [node name="Stage1" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="TileMap1" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 32, 32 )
 format = 1
