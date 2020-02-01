@@ -3,31 +3,36 @@ extends KinematicBody2D
 const UP = Vector2(0, -1)
 const SPEED = 350
 var motion = Vector2()
-var is_moving
 #Função
+func is_moving():
+	if Input.is_action_pressed("ui_up")\
+	or Input.is_action_pressed("ui_down")\
+	or Input.is_action_pressed("ui_right")\
+	or Input.is_action_pressed("ui_left"):
+		return true;
+	return false;
 func _physics_process(delta):
-
 #Movimentação
- #Parado_meliante
-	if is_moving:
-		motion.x = 0
-		motion.y = 0
-		is_moving = false
- #Cima
+	if not is_moving():
+		$Sprite.play("idle")
+	#Cima
 	if Input.is_action_pressed("ui_up"):
 		motion.y -= SPEED
-		is_moving = true
- #Baixo
+		$Sprite.play("walk")
+	#Baixo
 	elif Input.is_action_pressed("ui_down"):
 		motion.y += SPEED
-		is_moving = true
- #Direita
+		$Sprite.play("walk")
+	#Direita
 	if Input.is_action_pressed("ui_right"):
 		motion.x += SPEED
-		is_moving = true
- #Esquerda
+		$Sprite.play("walk")
+	#Esquerda
 	elif Input.is_action_pressed("ui_left"):
 		motion.x -= SPEED
-		is_moving = true
-
+		$Sprite.play("walk")
+	#Mexe desgraça
 	motion = move_and_slide(motion, UP)
+	#Parado_meliante
+	motion.x = 0
+	motion.y = 0
