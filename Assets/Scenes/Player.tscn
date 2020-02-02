@@ -172,7 +172,14 @@ animations = [ {
 "speed": 30.0
 } ]
 
+<<<<<<< HEAD
 [sub_resource type="SpriteFrames" id=4]
+=======
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 9, 12.44 )
+
+[sub_resource type="SpriteFrames" id=5]
+>>>>>>> a6370d1082066f889ee21237c24e3693e58678ce
 animations = [ {
 "frames": [ ExtResource( 37 ), ExtResource( 38 ) ],
 "loop": true,
@@ -215,8 +222,15 @@ animations = [ {
 "speed": 30.0
 } ]
 
+<<<<<<< HEAD
 [node name="Player" type="KinematicBody2D"]
 collision_mask = 31
+=======
+[node name="Player" type="Node2D"]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 0, -6 )
+>>>>>>> a6370d1082066f889ee21237c24e3693e58678ce
 script = ExtResource( 1 )
 
 [node name="LowerBody" type="AnimatedSprite" parent="."]
@@ -229,6 +243,7 @@ position = Vector2( 0, -1 )
 frames = SubResource( 5 )
 animation = "idle_down"
 
+<<<<<<< HEAD
 [node name="LeftHand" type="AnimatedSprite" parent="."]
 frames = SubResource( 3 )
 animation = "idle_down"
@@ -237,6 +252,17 @@ animation = "idle_down"
 position = Vector2( -1, 0 )
 frames = SubResource( 4 )
 animation = "idle_down"
+=======
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+position = Vector2( 0, 3 )
+shape = SubResource( 4 )
+
+[node name="RightHand" type="AnimatedSprite" parent="KinematicBody2D"]
+position = Vector2( 0, 1.5 )
+scale = Vector2( 1, 0.421875 )
+frames = SubResource( 5 )
+animation = "walk_right"
+>>>>>>> a6370d1082066f889ee21237c24e3693e58678ce
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
