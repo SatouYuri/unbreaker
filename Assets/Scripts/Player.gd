@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 var velocity = Vector2()
-var moveSpeed = 350
+var moveSpeed = 200
 var direction = "down" #DEFAULT: "down"
 
 func is_moving():
@@ -78,17 +78,17 @@ func _physics_process(delta):
 	if Input.is_action_just_released("ui_right") || Input.is_action_just_released("ui_left"):
 		velocity.x = 0
 		
-	if Input.is_action_just_released("ui_up") || Input.is_action_just_released("ui_up"):
+	if Input.is_action_just_released("ui_up") || Input.is_action_just_released("ui_down"):
 		velocity.y = 0
 	
 	#Direção:
-	if Input.is_action_just_pressed("ui_right"):
+	if velocity.x > 0: #RIGHT
 		direction = "right"
-	if Input.is_action_just_pressed("ui_left"):
+	elif velocity.x < 0: #LEFT
 		direction = "left"
-	if Input.is_action_just_pressed("ui_up"):
+	elif velocity.y < 0: #UP
 		direction = "up"
-	if Input.is_action_just_pressed("ui_down"):
+	elif velocity.y > 0: #DOWN
 		direction = "down"
 		
 	#Zerando a velocidade (Fim do Frame)
